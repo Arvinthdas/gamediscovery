@@ -1,0 +1,246 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(194, 223, 237);
+    background-color: rgb(26, 25, 25);
+}
+
+.login-form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgb(39, 39, 39);
+    box-shadow: 0 0 300px rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+}
+
+.login-form input {
+    color: rgb(240, 248, 255);
+    background-color: #616161;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .login-form input::placeholder {
+    color: #999999; 
+  }
+
+  .login-form button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-form a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-form a:hover {
+    text-decoration: underline;
+  }
+
+
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(194, 223, 237);
+    background-color: rgb(26, 25, 25);
+}
+
+.sign-up-form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgb(39, 39, 39);
+    box-shadow: 0 0 300px rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+}
+
+.sign-up-form input {
+    color: rgb(240, 248, 255);
+    background-color: #616161;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .sign-up-form input::placeholder {
+    color: #999999; 
+  }
+
+  .sign-up-form button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .sign-up-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .sign-up-form a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .sign-up-form a:hover {
+    text-decoration: underline;
+  }
+
+
+
+  .forgot-password-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(194, 223, 237);
+    background-color: rgb(26, 25, 25);
+}
+
+.forgot-password-form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgb(39, 39, 39);
+    box-shadow: 0 0 300px rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+}
+
+.forgot-password-form input {
+    color: rgb(240, 248, 255);
+    background-color: #616161;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .forgot-password-form input::placeholder {
+    color: #999999; 
+  }
+
+  .forgot-password-form button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .forgot-password-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .forgot-password-form a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .forgot-password-form a:hover {
+    text-decoration: underline;
+  }
+
+
+
+  .reset-password-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(194, 223, 237);
+    background-color: rgb(26, 25, 25);
+}
+
+.reset-password-form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgb(39, 39, 39);
+    box-shadow: 0 0 300px rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+}
+
+.reset-password-form input {
+    color: rgb(240, 248, 255);
+    background-color: #616161;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .reset-password-form input::placeholder {
+    color: #999999; 
+  }
+
+  .reset-password-form button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .reset-password-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .reset-password-form a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .reset-password-form a:hover {
+    text-decoration: underline;
+  }
+
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(124, 52, 219);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(124, 52, 219, 0.556);
+}
+

@@ -1,0 +1,103 @@
+.tabs-wrapper {
+    position: relative;
+    min-height: 1000px;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .tabs-buttons {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 286px;
+    z-index: 99;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    transition: all 300ms ease-in-out;
+  }
+  
+  .tabs-buttons-close {
+    
+    display: flex;
+    background-color: rgb(55, 53, 53);
+    align-items: center;
+    justify-content: center;
+  }
+    
+  
+  .tabs-buttons-close:hover {
+    background-color: rgb(25, 185, 164);
+    color: rgb(255, 255, 255);
+  }
+  
+  @media screen and (max-width: 1480px) {
+    .tabs-buttons {
+      width: 240px;
+    }
+  }
+  
+  @media screen and (max-width: 1380px) {
+    .tabs-buttons {
+      width: 200px;
+    }
+  }
+  
+  @media screen and (max-width: 1280px) {
+    .tabs-buttons {
+      transform: translateX(-88%);
+      width: 286px;
+    }
+  
+    .tabs-buttons-close {
+      display: block;
+    }
+  
+    .tabs-buttons.show {
+      transform: translateX(0);
+    }
+  }
+  
+  .tabs-button button {
+    padding: 12px 30px;
+    font-family: 'Barlow';
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    width: 100%;
+    text-align: start;
+  }
+  
+  .tabs-button:hover:not(.tabs-active) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .tabs-active {
+    background-color: rgb(25, 185, 164);
+  }
+
+  .text-white {
+    color: rgb(255, 255, 255);
+  }
+  
+  .tabs-active button {
+    color: rgb(255, 255, 255);
+  }
+  
+  .tabs-body {
+    max-width: 1050px;
+    margin-left: auto;
+  }
+
+  .card-list{
+    display: grid;
+    gap: 40px;
+
+    @media screen and (min-width: 768px){
+        grid-template-columns: repeat(2, 1fr); 
+        align-items: stretch;
+    }
+
+    @media screen and (min-width: 1200px){
+        grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  

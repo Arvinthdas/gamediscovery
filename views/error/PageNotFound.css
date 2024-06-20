@@ -1,0 +1,28 @@
+.PageNotFoundWrapper {
+    background-color: rgb(0, 0, 0);
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .PageNotFoundWrapper .container {
+    text-align: center;
+  }
+  
+  .PageNotFoundWrapper .value-404 {
+    font-size: 60px;
+    font-weight: 800;
+    color: hsl(180, 11%, 17%);
+  }
+  
+  .PageNotFoundWrapper .not-found-text {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+  }
+  
+  .PageNotFoundWrapper .section-btn {
+    display: inline-block;
+    margin-top: 18px;
+  }

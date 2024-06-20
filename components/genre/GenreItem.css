@@ -1,0 +1,100 @@
+.GenreItemWrapper {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #fff;
+  }
+
+  
+
+  .img-fit-cover{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+  .GenreItemWrapper .card-top {
+    height: 280px;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.27) 92.08%);
+    position: relative;
+  }
+  
+  .GenreItemWrapper .card-top::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+  }
+  
+  .GenreItemWrapper .ratings-count {
+    position: absolute;
+    left: 18px;
+    bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0px 12px;
+    border-radius: 16px;
+    background-color: rgb(172, 174, 0);
+    z-index: 1;
+  }
+
+  .ms-1{
+    margin-left: 4px;
+  }
+  
+  .GenreItemWrapper .card-bottom {
+    flex: 1;
+    background-color: #14104c;
+    padding: 20px 18px;
+    border-radius: 0 0 15px 15px;
+  }
+  
+  .GenreItemWrapper .card-bottom .card-title {
+    font-size: 18px;
+    font-weight: 800;
+    color:#a8a4e2;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.06em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .GenreItemWrapper .card-bottom .card-button {
+    height: 34px;
+    text-align: center;
+    border: 1px solid rgb(245, 222, 179);
+    padding: 0px 16px;
+    min-width: 108px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 300ms ease-in-out;
+    border-radius: 15px;
+    margin-top: 16px;
+    text-transform: uppercase;
+  }
+  
+  .GenreItemWrapper .card-bottom .card-button:hover {
+    background-color: rgb(222, 189, 0);
+  }
+  
+  .GenreItemWrapper .details-group {
+    padding-top: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+  }
+
+  .GenreItemWrapper .details-group .details-item {
+    display: flex;
+    align-items: center;
+  }

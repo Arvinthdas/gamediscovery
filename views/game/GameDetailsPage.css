@@ -1,0 +1,11 @@
+.GameDetailsPageWrapper .sc-details {
+    min-height: 100vh;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    background: linear-gradient(0deg, rgba(35, 35, 35, 0.8), rgba(0, 0, 0, 0.8)), center/cover no-repeat;
+    background-color: rgb(3, 3, 3);
+
+  }
+  
